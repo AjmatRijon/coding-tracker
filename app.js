@@ -18,7 +18,7 @@ function bg() {
     refresch = setInterval(() => {
         document.getElementById('head').style = 'color: #' +
             Math.random().toString(16).slice(-6);
-    }, 1500)
+    }, 1000)
 }
 
 function time() {
